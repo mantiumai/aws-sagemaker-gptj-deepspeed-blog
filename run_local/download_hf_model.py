@@ -20,6 +20,7 @@ if __name__ == "__main__":
         repo_id=args.repo_id,
         cache_dir=args.cache_dir,
         revision=args.revision,
+        local_dir_use_symlinks=False
         allow_regex=args.allow_regex,
         ignore_regex=args.ignore_regex
     )
